@@ -15,12 +15,12 @@ public class Product {
 //    private String desc;
 //    private String category;
     private Integer price;
-    private Integer discount;
-    private Integer deliveryCharge;
-    private Integer offerPrice;
-    private String seller;
-    private Integer sellerCount;
-    private Integer avgRating;
+//    private Integer discount;
+//    private Integer deliveryCharge;
+//    private Integer offerPrice;
+//    private String seller;
+//    private Integer sellerCount;
+//    private Integer avgRating;
 
     public Long getProdId() {
         return prodId;
@@ -70,53 +70,53 @@ public class Product {
         this.price = price;
     }
 
-    public Integer getDiscount() {
-        return discount;
-    }
-
-    public void setDiscount(Integer discount) {
-        this.discount = discount;
-    }
-
-    public Integer getDeliveryCharge() {
-        return deliveryCharge;
-    }
-
-    public void setDeliveryCharge(Integer deliveryCharge) {
-        this.deliveryCharge = deliveryCharge;
-    }
-
-    public Integer getOfferPrice() {
-        return offerPrice;
-    }
-
-    public void setOfferPrice(Integer offerPrice) {
-        this.offerPrice = offerPrice;
-    }
-
-    public String getSeller() {
-        return seller;
-    }
-
-    public void setSeller(String seller) {
-        this.seller = seller;
-    }
-
-    public Integer getSellerCount() {
-        return sellerCount;
-    }
-
-    public void setSellerCount(Integer sellerCount) {
-        this.sellerCount = sellerCount;
-    }
-
-    public Integer getAvgRating() {
-        return avgRating;
-    }
-
-    public void setAvgRating(Integer avgRating) {
-        this.avgRating = avgRating;
-    }
+//    public Integer getDiscount() {
+//        return discount;
+//    }
+//
+//    public void setDiscount(Integer discount) {
+//        this.discount = discount;
+//    }
+//
+//    public Integer getDeliveryCharge() {
+//        return deliveryCharge;
+//    }
+//
+//    public void setDeliveryCharge(Integer deliveryCharge) {
+//        this.deliveryCharge = deliveryCharge;
+//    }
+//
+//    public Integer getOfferPrice() {
+//        return offerPrice;
+//    }
+//
+//    public void setOfferPrice(Integer offerPrice) {
+//        this.offerPrice = offerPrice;
+//    }
+//
+//    public String getSeller() {
+//        return seller;
+//    }
+//
+//    public void setSeller(String seller) {
+//        this.seller = seller;
+//    }
+//
+//    public Integer getSellerCount() {
+//        return sellerCount;
+//    }
+//
+//    public void setSellerCount(Integer sellerCount) {
+//        this.sellerCount = sellerCount;
+//    }
+//
+//    public Integer getAvgRating() {
+//        return avgRating;
+//    }
+//
+//    public void setAvgRating(Integer avgRating) {
+//        this.avgRating = avgRating;
+//    }
 
 //    public List<Review> getReviews() {
 //        return reviews;
