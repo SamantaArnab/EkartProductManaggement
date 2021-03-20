@@ -1,14 +1,14 @@
 package com.example.EkartProductManagement.model;
 
-import javax.persistence.*;
+//import javax.persistence.*;
 import java.util.List;
 
-@Entity
-@Table(name = "products")
+//@Entity
+//@Table(name = "products")
 public class Product {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(columnDefinition = "serial")
+//    @Id
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    @Column(columnDefinition = "serial")
     private Long prodId;
     private String displayName;
 //    private String shortDesc;
