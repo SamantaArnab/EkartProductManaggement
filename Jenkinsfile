@@ -7,6 +7,7 @@ pipeline {
 
             steps {
                 echo 'building the application...'
+                sh './gradlew assemble'
             }
         }
 
@@ -14,6 +15,7 @@ pipeline {
 
             steps {
                 echo 'testing the application...'
+                sh './gradlew test'
             }
         }
 
