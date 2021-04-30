@@ -1,5 +1,6 @@
 package com.example.EkartProductManagement.controller;
 
+import com.example.EkartProductManagement.exception.ApiRequestException;
 import com.example.EkartProductManagement.model.Product;
 import com.example.EkartProductManagement.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,8 +18,9 @@ public class ProductController {
 
     @GetMapping("/getProducts")
     public List<Product> findAllProducts(){
+        throw new ApiRequestException("I am throwing");
 
-        return productService.findAllProducts();
+//        return productService.findAllProducts();
     }
     @GetMapping("/getProducts/{Id}")
     public String findProductById(@PathVariable("Id") Integer id){
