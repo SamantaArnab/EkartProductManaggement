@@ -18,9 +18,9 @@ public class ProductController {
 
     @GetMapping("/getProducts")
     public List<Product> findAllProducts(){
-        throw new ApiRequestException("I am throwing");
+//        throw new ApiRequestException("I am throwing");
 
-//        return productService.findAllProducts();
+        return productService.findAllProducts();
     }
     @GetMapping("/getProducts/{Id}")
     public String findProductById(@PathVariable("Id") Integer id){
